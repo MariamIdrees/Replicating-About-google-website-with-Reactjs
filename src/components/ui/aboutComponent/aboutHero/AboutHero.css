@@ -1,0 +1,44 @@
+.heroDiv{
+    /* background-color: black; */
+    background-image: url("./../../../../../src/assets//images/aboutherobg.webp=n-w1920-h1080-fcrop64=1\,00002000ffffe000-rw");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroText{
+      
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+    h1{
+        font-size: 60px;
+        font-weight: 300;
+        text-align: center;
+        
+    }
+    
+p{
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
+}
+    button{
+        border-radius: 30px;
+        height: 53px;
+        width: 140px;
+        border: none;
+        background-color:#185ABC ;
+    }
+}

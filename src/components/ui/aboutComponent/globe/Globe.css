@@ -1,0 +1,55 @@
+.globeDiv{
+background-color: #FFFFFF;
+/* height: 70vh; */
+}
+
+.globeText{
+    text-align: center;
+    padding-top: 80px;
+
+    img{
+        width: 74px;
+        height: 67px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    button{
+     width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: #185ABC;
+    border: none;
+    margin-top: 20px;
+}
+}
+
+.globeTextBox{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.globeText2{
+    background-color: #F2F5FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 937px;
+    height: 225px;
+    border-radius: 20px;
+    margin-top: 180px;
+    padding: 40px;
+
+    /* button{
+        display: flex;
+        flex-direction: row;
+    } */
+}
