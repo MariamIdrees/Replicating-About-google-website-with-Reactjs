@@ -1,10 +1,14 @@
 import "./Buttons.css"
 
 
-const Buttons = () => {
+const Buttons = (props) => {
     return (
         <div>
-            <h1>buttons</h1>
+         <button className="btn">
+       <div>
+        
+       </div>
+         </button>
         </div>
     )
 }

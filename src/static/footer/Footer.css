@@ -1,0 +1,56 @@
+.footerContainer{
+    background-color: #F8F9FA;
+    height: 90vh;
+    margin-top: 70px;
+}
+.footerTexts{
+    /* background-color: #EC4899; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+   
+}
+.afterFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.afterFooter1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.afterFooter2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+ img{
+        width: 60px;
+        height: 20px;
+    }
+}
+    
+
+
+.helpQuestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    img{
+        width: 60px;
+        height: 20px;
+    }
+}
+
+@media (max-width:500px) {
+    .footerTexts{
+        display: block;
+     
+    }
+    
+}
+

@@ -34,11 +34,4 @@ p{
     max-width: 600px;
     text-align: center;
 }
-    button{
-        border-radius: 30px;
-        height: 53px;
-        width: 140px;
-        border: none;
-        background-color:#185ABC ;
-    }
 }
