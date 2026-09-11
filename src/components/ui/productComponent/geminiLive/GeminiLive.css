@@ -1,0 +1,35 @@
+.geminiLiveContainer{
+    background-color: #E8F0FF;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 150px;
+}
+
+.geminiLiveText{
+      /* background-color: mediumpurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    /* width: 400px; */
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+        width: 380px;
+        text-align: center;
+      
+    }
+
+}
+img{
+    width: 465px;
+    height: 260px;
+}

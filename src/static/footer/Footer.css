@@ -19,7 +19,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 250px;
+    width: 280px;
+
+    img{
+        width: 60px;
+        height: 20px;
+        padding-left: 65px;
+    }
 }
 
 .afterFooter2{

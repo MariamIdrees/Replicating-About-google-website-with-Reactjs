@@ -1,10 +1,10 @@
 import "./Buttons.css"
 
 
-const Buttons = (props) => {
+const Buttons = (Props) => {
     return (
         <div>
-         <button className="btn">
+         <button className="">
        <div>
         
        </div>

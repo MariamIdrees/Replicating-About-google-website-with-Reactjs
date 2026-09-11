@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 50px 0px;
+   
 
       img{
         width: 443px;
@@ -14,10 +16,11 @@
 .voiceText{
     /* background-color: brown; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    width: 462px;
-    height: 455px;
+    width: 550px;
+    height: 550px;
 
     
 h1{
@@ -26,16 +29,27 @@ h1{
   
 p{
     font-size: 20px;
+    padding-bottom: 80px;
 }
 
-button{
-    width: 150px;
-    height: 80px;
-    border-radius: 25px;
-    color: white;
+}
+
+.btn3{
     background-color: #185ABC;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
     border: none;
-    /* margin-top: 70px; */
-}
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+  
 }
 
+@media (max-width:500px) {
+    .btn3{
+        min-width: 90%;
+    }
+    
+}

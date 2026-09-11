@@ -1,4 +1,4 @@
-.btn{
+/* .btn{
     font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
    
@@ -10,10 +10,10 @@
         background-color:#185ABC ;
         color: white;
         font-size: 16px;
-    }
+    } */
 
-@media (max-width:500px) {
+/* @media (max-width:500px) {
 .btn{
     width: 90%;
 }
-}
+} */

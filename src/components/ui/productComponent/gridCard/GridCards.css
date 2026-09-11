@@ -1,0 +1,59 @@
+.gridCardsContainer{
+    /* background-color: fuchsia; */
+    display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 500px 250px 500px 250px;
+     grid-gap: 20px;
+     padding: 30px;
+  
+     grid-template-areas:
+
+
+"circle to Search How search Work"
+"circle to Search Lens"
+"aiMode Lens"
+"Lens Lens"
+
+
+}
+
+
+
+/* 
+.circleSearch{
+background-color: #E8F0FE;
+text-align: center;
+grid-area: Circle to Search;
+
+
+
+}
+
+.searchWork{
+background-color: #E6F4EA;
+grid-area: How search works;
+
+
+}
+
+.aiMode{
+background-color: #FCE8E6;
+padding: 40px;
+grid-area: AI Mode ;
+
+
+}
+
+.lens{
+background-color: #FEF7E0;
+grid-area: Lens;
+
+
+}
+.circleSearch{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */

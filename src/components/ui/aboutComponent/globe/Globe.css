@@ -1,5 +1,6 @@
 .globeDiv{
-background-color: #FFFFFF;
+background-color: white;
+
 /* height: 70vh; */
 }
 
@@ -21,8 +22,7 @@ background-color: #FFFFFF;
     }
 
     button{
-     width: 150px;
-    height: 50px;
+    padding: 20px 50px;
     border-radius: 25px;
     color: white;
     background-color: #185ABC;
@@ -34,6 +34,7 @@ background-color: #FFFFFF;
 .globeTextBox{
     display: flex;
     justify-content: center;
+    align-items: center;
    
 }
 
@@ -42,14 +43,35 @@ background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 937px;
-    height: 225px;
+    height: 250px;
     border-radius: 20px;
     margin-top: 180px;
-    padding: 40px;
+    padding-bottom: 120px;
 
-    /* button{
-        display: flex;
-        flex-direction: row;
-    } */
+  
+}
+
+.btn4{
+    background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn4:hover{
+
+}
+
+@media (max-width:500px) {
+    .btn4{
+        min-width: 90%;
+    }
+    
 }

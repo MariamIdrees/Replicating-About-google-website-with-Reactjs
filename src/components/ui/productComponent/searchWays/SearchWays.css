@@ -1,0 +1,26 @@
+
+.searchWaysContainer{
+    height: 50vh;
+    margin-top: 70px;
+    margin-bottom: 50px;
+   
+      img{
+        width: 62px;
+        height: 62px;
+     
+    }
+}
+
+ .searchwayText{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+    }
+
+}
+ 

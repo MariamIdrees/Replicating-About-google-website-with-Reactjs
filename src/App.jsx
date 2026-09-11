@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Cards from "./components/reusable/cards/Cards"
-// import Buttons from "./components/reusable/buttons/Buttons"
 import Header from "./static/header/header"
 import About from "./pages/about/About"
 import Products from "./pages/products/Products"
@@ -19,14 +18,13 @@ const App = () =>   {
     <Route path="/Products" element= {<Products/>}/>
     <Route path="/company" element= {<CompanyInfo/>}/>
     <Route path="/News" element= {<News/>}/>
-    {/* <Route path="/News" element= {<News/>}/> */}
     </Routes>
      <Footer/>
     </BrowserRouter>
    
   
     <Cards/> 
-    {/* <Buttons/> */}
+  
     </div>
   )
 }

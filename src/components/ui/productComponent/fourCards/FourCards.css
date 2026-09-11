@@ -1,0 +1,26 @@
+.fourCardsContainer{
+    background-color: white;
+    height: 80vh;
+    
+
+
+}
+.fourCardsText{
+    display: grid;
+    background-color: white;
+    grid-template-columns:450px 1fr 1fr ;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    cursor: pointer;
+    padding-top: 50px;
+    color: black;
+
+    img{
+        width: 100px;
+        height: 100px;
+    }
+
+}

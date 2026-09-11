@@ -1,0 +1,22 @@
+.chatGeminiContainer{
+    /* background-color: darkseagreen; */
+    height: 70vh;
+}
+
+.chatGeminiText{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font-size: 50px;
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+
+    }
+}

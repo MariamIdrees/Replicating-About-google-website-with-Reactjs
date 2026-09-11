@@ -17,7 +17,7 @@ const globe = () =>{
             <h1>Get the latest news from Google in your <br /> inbox</h1>
             <p>Sign up to receive top stories from the week — from product announcements, to <br />everyday tips.</p>
 
-              <button>Subscribe</button>
+              <button className="btn4">Subscribe</button>
           </div>
           
        </div>

@@ -7,9 +7,11 @@
 
 }
 
-.logo{
+.googleLogo{
     img {
-        width: 100px;
+        width: 80px;
+        height: 30px;
+        padding-left: 20px;
     }
 }
 

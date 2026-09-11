@@ -4,8 +4,8 @@ import { Link } from "react-router-dom"
 const Header = ()=>{
     return(
         <div className="headerDiv">
-           <section className="logo">
-             <img src ="./src/assets/images/google-logo-about.svg" alt="Logo"/>
+           <section className="googleLogo">
+             <img src ="./src/assets/images/googlelogoabout.png" alt=" Google About Logo"/>
            </section>
            <section className="navigation">
             <Link to="/">
