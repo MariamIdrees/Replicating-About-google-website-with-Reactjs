@@ -1,26 +1,159 @@
 .fourCardsContainer{
     background-color: white;
     height: 80vh;
+
+}
+
+.fourCardsWrapper{
+    /* background-color: ; */
+    height: 80vh;
+    margin: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    overflow: hidden;
+
+  
+
     
 
 
 }
-.fourCardsText{
-    display: grid;
+.productSupport{
     background-color: white;
-    grid-template-columns:450px 1fr 1fr ;
-    grid-template-rows: 200px 200px 200px;
-    grid-gap: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 165px;
+    border-radius: 12px;
     cursor: pointer;
-    padding-top: 50px;
-    color: black;
+    outline: 1px solid black;
+    padding-left: 30px;
+   
 
     img{
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 165px;
+        border-radius: 12px;
     }
 
+    h4{
+        padding-top: 20px;
+    }
+}
+.productArrow{
+    img{
+        width: 50px;
+        height: 30px;
+        margin-top: 30px;
+        /* margin-right: 30px; */
+    }
+}
+
+.googleStore{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 165px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: 1px solid black;
+    padding-left: 30px;
+   
+
+    img{
+        width: 120px;
+        height: 165px;
+        border-radius: 12px;
+    }
+
+    h4{
+        padding-top: 20px;
+    }
+}
+.productArrow{
+    img{
+        width: 50px;
+        height: 30px;
+        margin-top: 30px;
+        /* margin-right: 30px; */
+    }
+}
+
+
+.googleAccount{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 165px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: 1px solid black;
+    padding-left: 30px;
+   
+
+    img{
+        width: 120px;
+        height: 165px;
+        border-radius: 12px;
+    }
+
+    h4{
+        padding-top: 20px;
+    }
+}
+.productArrow{
+    img{
+        width: 50px;
+        height: 30px;
+        margin-top: 30px;
+        /* margin-right: 30px; */
+    }
+}
+
+
+.accessibilty{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 343px;
+    height: 165px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: 1px solid black;
+    padding-left: 30px;
+   
+
+    img{
+        width: 120px;
+        height: 165px;
+        border-radius: 12px;
+    }
+
+    h4{
+        padding-top: 20px;
+    }
+}
+.productArrow{
+    img{
+        width: 50px;
+        height: 30px;
+        margin-top: 30px;
+        /* margin-right: 30px; */
+    }
+}
+
+@media (max-width:500px) {
+    .fourCardsWrapper{
+        /* background-color: brown; */
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       padding: 50px 50px;
+       gap: 35px;
+       height: auto;
+     
+    }
+    
 }

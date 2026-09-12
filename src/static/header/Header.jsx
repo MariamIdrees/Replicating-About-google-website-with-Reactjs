@@ -4,6 +4,9 @@ import { Link } from "react-router-dom"
 const Header = ()=>{
     return(
         <div className="headerDiv">
+            <div className="hamburger">
+                <img src="./src/assets/images/hamburger.png" alt="hamburger" />
+            </div>
            <section className="googleLogo">
              <img src ="./src/assets/images/googlelogoabout.png" alt=" Google About Logo"/>
            </section>

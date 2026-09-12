@@ -35,22 +35,37 @@ p{
 }
 }
 .btn1{
-    background-color: #185ABC;
+    background-color: #1A73E8;
      font-family: "Google Sans", sans-serif;
     font-optical-sizing: auto;
-    padding: 20px 30px;
+    padding: 18px 30px;
     border: none;
     outline: none;
     border-radius: 30px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #1A73E8;
 }
 
 @media (max-width:500px) {
     .btn1{
         min-width: 90%;
     }
-    
+    .heroDiv{
+        height: auto;
+      
+       
+    }
+    .heroText{
+        height: auto;
+        h1{
+            /* font-size: 40px; */
+        }
+       
+    }
 }
 
 

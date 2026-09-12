@@ -1,83 +1,44 @@
 .threeCardsDiv{
     background-color: #F3F5FB;
-    height: 70vh;
-    padding: 100px 70px;
-   
-
-   
-
-}
-/* .threeCardsWrapper{
     display: flex;
     justify-content: center;
-    gap: 30px;
-     border-radius: 20px;
-   background-color: white;
-    img{
-        width: 345px;
-        height: 192px;
-    }
-    p{
-        font-size: 18px;
-         width: 345px;
-        
-    }
+    padding: 70px 70px;
+    gap: 45px;
+    animation: popUp 2s ease-in-out;
+   
+  
+  
+   
+
+   
 
 }
 
-.threeCardsArrow{
-    /* background-color: hotpink; */
-    display: flex;
-    justify-content: flex-end;
-    
-
-   /* img{
-        width: 30px;
-        height: 30px;
+@keyframes popUp {
+    from {
+        opacity: 0px;
+        transform: translateY(50px) scale(0.8);
     }
-} */
-
-/* @media (max-width: 500px) {
-
-    .threeCardsWrapper{
-        display: flex;
-        flex-wrap: wrap;
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
+
+ @media (max-width: 500px) {
+
+    .threeCardsDiv{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       padding: 50px 50px;
+       gap: 35px;
+       animation: popUp 2s ease-in-out;
+       overflow: hidden;
 
 } 
+ }
 
 
 
 
-.threeCardsWrapper{
-    background-color: white;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 500px 500px 500px;
-    gap: 20px;
 
-
- img{
-        width: 345px;
-        height: 192px;
-    }
-}
-
-.threeCardsText{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.threeCardsArrow{
-    /* background-color: hotpink; */
-    display: flex;
-    justify-content: flex-end;
-    
-
-   img{
-        width: 30px;
-        height: 30px;
-    }
-} */

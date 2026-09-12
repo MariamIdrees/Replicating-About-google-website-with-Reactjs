@@ -7,9 +7,20 @@
 
 }
 
+.hamburger{
+  
+   
+ img{
+     width: 60px;
+    height: 40px;
+    display: none;
+
+ }
+}
+
 .googleLogo{
     img {
-        width: 80px;
+        width: 100px;
         height: 30px;
         padding-left: 20px;
     }
@@ -19,4 +30,23 @@
     display: flex;
     gap: 20px;
     font-size: 15px;
+   
+}
+
+   
+@media (max-width:500px) {
+    .navigation{
+        display: none;
+    }
+   
+    .hamburger{
+        img{
+         display: block;
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
+        }
+        
+    }
 }

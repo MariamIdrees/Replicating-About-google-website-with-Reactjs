@@ -1,17 +1,25 @@
-// import "./ThreeCards.css"
+import "./Cards.css"
 
 
 
 
-const Cards =({cardImage, cardText}) =>{
+const Cards =({cardImage, cardText, cardIcon}) =>{
     return(
         <div className="cardContainer">
-            <div className="imageContainer">
+            <div className="cardTextIconContainer">
+            <div className="imageSection">
                <img src={cardImage} alt="" />
             </div>
+             <div className="textSection">
               <p>
                  {cardText}
               </p>
+              </div>
+              <div className="iconSection">
+                <img src={cardIcon} />
+
+              </div>
+              </div>
         </div>
     )
 }

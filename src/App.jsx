@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom"
-import Cards from "./components/reusable/cards/Cards"
-import Header from "./static/header/header"
+// import Cards from "./components/reusable/cards/Cards"
+import Header from "./static/header/Header"
 import About from "./pages/about/About"
 import Products from "./pages/products/Products"
 import CompanyInfo from "./pages/company/CompanyInfo"
@@ -23,7 +23,7 @@ const App = () =>   {
     </BrowserRouter>
    
   
-    <Cards/> 
+  
   
     </div>
   )

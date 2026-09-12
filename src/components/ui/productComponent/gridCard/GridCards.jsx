@@ -4,7 +4,7 @@ import "./GridCards.css"
 const GridCards = () => {
     return(
         <div className="gridCardsContainer">
-        <div className="circleSearch"> 
+        {/* <div className="circleSearch"> 
             <div className="circleSearchImage">
               <img src="./src/assets/productsimages/gridcard1.png" alt="grid card one" />
             </div>
@@ -13,7 +13,7 @@ const GridCards = () => {
              <h2>Circle, highlight or tap to search anything on your Android device</h2>
          </div>
          <div>
-            {/* <img src="./src/assets/images/arrow.png" alt="arrow" /> */}
+            <img src="./src/assets/images/arrow.png" alt="arrow" />
          </div>
          </div>
 
@@ -37,14 +37,14 @@ const GridCards = () => {
              <div>
                 <img src="" alt="" />
               </div>
-             {/* <div>
+             <div>
                <h2>LENS</h2>
                <p>Go beyond words: Search with your camera, an image or whatever’s on your screen.</p>
             <div>
                <img src="" alt="" />
              </div>
-            </div> */}
-        </div>
+            </div>
+        </div> */}
 
 
    

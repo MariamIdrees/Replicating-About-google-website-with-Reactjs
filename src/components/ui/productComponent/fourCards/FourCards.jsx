@@ -1,37 +1,45 @@
 import "./FourCards.css"
-import fourcards1 from "../../../../assets/productsimages/fourcards1.png"
-import fourcards2 from "../../../../assets/productsimages/fourcards2.png"
-import fourcards3 from "../../../../assets/productsimages/fourcards3.png"
-import fourcards4 from "../../../../assets/productsimages/fourcards4.jpeg"
-import Cards from "../../../reusable/cards/Cards"
+
+
 
 const FourCards = () => {
     return (
         <div className="fourCardsContainer">
-            <div className="fourCardsText">
-           <Cards
-           cardImage={fourcards1}
-           cardText="Product support"
-           
-           />
+            <div className="fourCardsWrapper">
+                <div className="productSupport">
+                    <div className="productArrow">
+                    <h3>Product Support</h3>
+                    <img src="./src/assets/images/arrow.png" alt="arrow" />
+                    </div>
+                  <img src="./src/assets/productsimages/fourcards1.png" alt="four card1" />
 
-           <Cards
-           cardImage={fourcards2}
-           cardText="Google Store"
-           
-           />
+                </div>
+                <div className="googleStore">
+                   <div className="productArrow">
+                    <h3>Google store</h3>
+                    <img src="./src/assets/images/arrow.png" alt="arrow" />
+                    </div>
+                  <img src="./src/assets/productsimages/fourcards2.png" alt="four card2" />
 
-           <Cards
-           cardImage={fourcards3}
-           cardText="Google Account"
-           
-           />
+                </div>
+                <div className="googleAccount">
+                       <div className="productArrow">
+                    <h3>Google Account</h3>
+                    <img src="./src/assets/images/arrow.png" alt="arrow" />
+                    </div>
+                  <img src="./src/assets/productsimages/fourcards3.png" alt="four card3" />
 
-           <Cards
-           cardImage={fourcards4}
-           cardText="Accessibility support"
-           
-           />
+                </div>
+                <div className="accessibilty">
+                    <div className="productArrow">
+                    <h3>Accessibility</h3>
+                    <img src="./src/assets/images/arrow.png" alt="arrow" />
+                    </div>
+                  <img src="./src/assets/productsimages/fourcards4.jpeg" alt="four card4" />
+
+
+                </div>
+          
            </div>
         </div>
     )

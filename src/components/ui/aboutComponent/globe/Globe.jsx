@@ -8,7 +8,7 @@ const globe = () =>{
 
             <h1>Google around the globe</h1>
             <p>Learn about Google's work and impact around the world.</p>
-            <button>Explore</button>
+            <button className="btn4">Explore</button>
           </div>
 
 
@@ -17,7 +17,7 @@ const globe = () =>{
             <h1>Get the latest news from Google in your <br /> inbox</h1>
             <p>Sign up to receive top stories from the week — from product announcements, to <br />everyday tips.</p>
 
-              <button className="btn4">Subscribe</button>
+              <button className="btn5">Subscribe</button>
           </div>
           
        </div>

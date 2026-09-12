@@ -6,16 +6,10 @@ import Globe from "../../components/ui/aboutComponent/globe/Globe"
 
 
 
-
-
-
-
-
-
-
 const About = () =>{
     return(
-           <div className="aboutDiv">
+           <div>
+           
           <AboutHero/>
           <ThreeCards/>
           <Weather/>
