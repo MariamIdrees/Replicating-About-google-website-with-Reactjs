@@ -1,0 +1,58 @@
+.googleGrowingContainer{
+    /* background-color: mediumpurple; */
+  
+}
+.googleGrowingWrapper{
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 70vh;
+
+}
+
+.googleGrowingImage{
+    img{
+        width: 440px;
+        height: 290px;
+    }
+
+}
+.googleGrowingText{
+    /* background-color: aqua; */
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+
+    h1{
+        font-size: 40px;
+        margin-right: 180px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    
+
+}
+
+.button{
+    background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #185ABC;
+
+}

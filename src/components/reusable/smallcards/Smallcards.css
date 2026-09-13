@@ -1,0 +1,47 @@
+.smallcardContainer{
+    display: flex;
+    justify-content: center;
+  
+  
+
+}
+.smallcardTextWrapper{
+  
+     width:  250px;
+    height: 70px;
+     background-color: white;
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: 1px solid black;
+    padding-left: 30px;
+  
+   
+
+}
+.smallcardimageSection{
+    img{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.smallcardtextSection{
+  p{
+    /* padding-right: 40px; */
+  }
+
+}
+.smallcardiconSection{
+     img{
+        width: 50px;
+        height: 30px;
+
+    }
+
+}
+
+
+

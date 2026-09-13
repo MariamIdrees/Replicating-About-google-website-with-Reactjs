@@ -1,0 +1,87 @@
+.googleceoContainer{
+    background-color: #F8F9FA;
+    height: 70vh;
+    margin: 50px 30;
+}
+
+.googleceoWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+.googleceoText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35vw;
+
+    p{
+        font-size: 20px;
+    }
+}
+
+.googleceoImage{
+    img{
+        width: 443px;
+        height: 295px;
+    }
+}
+
+   .button7{
+     background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 80px;
+    cursor: pointer;
+  
+    }
+
+    .button7:hover{
+    background-color: #185ABC;
+}
+
+
+
+
+@media (max-width:500px) {
+    .button7{
+        min-width: 90%;
+    }
+  .googleceoWrapper{
+    /* background-color: aquamarine; */
+   
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: auto;
+ 
+
+
+  }  
+
+  .googleceoText{
+ 
+ p{
+    font-size: 17px;
+    text-align: center;
+ }
+}
+.googleceoImage{
+    img{
+        width: 443px;
+        height: 295px;
+    }
+}
+
+}

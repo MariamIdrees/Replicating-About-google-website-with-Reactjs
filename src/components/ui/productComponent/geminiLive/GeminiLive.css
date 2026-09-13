@@ -33,3 +33,65 @@ img{
     width: 465px;
     height: 260px;
 }
+
+.button{
+    background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 80px;
+    cursor: pointer;
+  
+}
+.button:hover{
+    background-color: #185ABC;
+}
+
+@media (max-width:500px) {
+    .button{
+        min-width: 90%;
+    }
+  .geminiLiveContainer{
+ 
+   
+    display: flex;
+    justify-content: center;
+     flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+  
+   
+
+  }  
+
+  .geminiLiveText{
+     h1{
+   font-size: 40px;
+ }
+
+ p{
+    font-size: 17px;
+    max-width: 100%;
+ }
+}
+
+.geminiLiveImage{
+  
+    /* display: flex;
+    flex-direction: row; */
+     img{
+        width: 465px;
+        height: 260px;
+       
+    
+      
+      
+    }
+
+}
+}

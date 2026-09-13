@@ -1,46 +1,40 @@
 import "./FourCards.css"
+import HorizontalCards from "../../../reusable/horizontalcards/HorizontalCards"
+import FourCards1 from "./../../../../assets/productsimages/fourcards1.png"
+import FourCards2 from "./../../../../assets/productsimages/fourcards2.png"
+import FourCards3 from "./../../../../assets/productsimages/fourcards3.png"
+import FourCards4 from "./../../../../assets/productsimages/fourcards4.jpeg"
+import Arrow from "../../../../assets/images/arrow.png"
 
 
 
 const FourCards = () => {
     return (
         <div className="fourCardsContainer">
-            <div className="fourCardsWrapper">
-                <div className="productSupport">
-                    <div className="productArrow">
-                    <h3>Product Support</h3>
-                    <img src="./src/assets/images/arrow.png" alt="arrow" />
-                    </div>
-                  <img src="./src/assets/productsimages/fourcards1.png" alt="four card1" />
+             <HorizontalCards
+            HorizontalCardText = "Product support"
+            HorizontalCardIcon = {Arrow}
+            HorizontalCardImage = {FourCards1}
+            />
 
-                </div>
-                <div className="googleStore">
-                   <div className="productArrow">
-                    <h3>Google store</h3>
-                    <img src="./src/assets/images/arrow.png" alt="arrow" />
-                    </div>
-                  <img src="./src/assets/productsimages/fourcards2.png" alt="four card2" />
+             <HorizontalCards
+            HorizontalCardText = "Google Store"
+            HorizontalCardIcon = {Arrow}
+            HorizontalCardImage = {FourCards2}
+            />
+           
+            <HorizontalCards
+            HorizontalCardText = "Google Account"
+            HorizontalCardIcon = {Arrow}
+            HorizontalCardImage = {FourCards3}
+            />
 
-                </div>
-                <div className="googleAccount">
-                       <div className="productArrow">
-                    <h3>Google Account</h3>
-                    <img src="./src/assets/images/arrow.png" alt="arrow" />
-                    </div>
-                  <img src="./src/assets/productsimages/fourcards3.png" alt="four card3" />
-
-                </div>
-                <div className="accessibilty">
-                    <div className="productArrow">
-                    <h3>Accessibility</h3>
-                    <img src="./src/assets/images/arrow.png" alt="arrow" />
-                    </div>
-                  <img src="./src/assets/productsimages/fourcards4.jpeg" alt="four card4" />
-
-
-                </div>
-          
-           </div>
+             <HorizontalCards
+            HorizontalCardText = "Accessibility support"
+            HorizontalCardIcon = {Arrow}
+            HorizontalCardImage = {FourCards4}
+            />
+           
         </div>
     )
 }

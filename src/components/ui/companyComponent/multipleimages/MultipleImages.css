@@ -1,0 +1,41 @@
+.multipleImagesContainer{
+    /* background-color: darkolivegreen; */
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+.multipleTextWrapper{
+  
+h1{
+    font-size: 60px;
+    width: 70vw;
+    margin-left: 180px;
+    /* margin-right: 50px; */
+   
+}
+}
+
+.multipleImage{
+   img{
+     width: 100vw;
+     height: 380px;
+   }
+}
+
+.organize{
+    color: #4285F4;
+}
+
+.information{
+ color: #EA4335;
+}
+.universal{
+ color: #34A853;
+}
+.useful{
+ color: #E37400;
+}
+
+@media (max-width:500) {
+    
+    
+}

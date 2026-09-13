@@ -1,0 +1,10 @@
+.company4cardsContainer{
+    background-color: #F8F9FA;
+  
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+}

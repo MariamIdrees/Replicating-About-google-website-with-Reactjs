@@ -1,0 +1,320 @@
+.whatwedoContainer{
+ 
+}
+
+.whatwedoContainer{
+    /* background-color: sienna; */
+    display: flex;
+    gap: 30px;
+    margin: 90px 70px;
+}
+
+.ourstoryPolicy{
+    background-color: #E8F0FE;
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.ourstoryImage{
+    img{
+        width: 460px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.ourstoryText{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 18px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+}
+
+.gridarrow{
+    text-align: center;
+    img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.publicPolicy{
+    background-color: #FCE8E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 550px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+}
+
+.publicpolicyText{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+}
+
+
+.socialCommitment{
+  display: grid;
+  gap: 30px;
+  
+}
+
+.aimodeLens{
+
+}
+
+.socialImpacts{
+    background-color: #E6F4EA;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 550px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.socialImpactsText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 18px;
+     width: 80%;
+     text-align: center;
+     
+   }
+}
+.ourstoryPolicy{
+    display: grid;
+gap: 50px;
+}
+
+.commitments{
+    background-color: #FEF7E0;
+      width: 550px;
+    height: 500px;
+    border-radius: 20px;
+     p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+
+
+    img{
+     width: 460px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.commitmentText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+
+.gridsecondarrow{
+    text-align: center;
+      img{
+    width: 30px;
+    height: 20px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .gridCardsContainer{
+    display: grid;
+    margin-left: 30px;
+
+    }
+
+.circleSearch{
+    background-color: #E8F0FE;
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.circleSearchImage{
+    img{
+        width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.circleSearchText{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+}
+.aiMode{
+    background-color: #FCE8E6;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.aimodeText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+
+.searchWork{
+    background-color: #E6F4EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+}
+
+.searchworkText{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+}
+
+.lens{
+    background-color: #FEF7E0;
+      width: 420px;
+    height: 500px;
+    border-radius: 20px;
+     p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+
+
+    img{
+     width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.lensText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+
+ 
+
+}
+
+.gridsecondarrow{
+    text-align: center;
+  
+      img{
+    width: 30px;
+    height: 20px;
+  
+    }
+
+}
+
+}

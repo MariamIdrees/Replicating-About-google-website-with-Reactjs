@@ -1,0 +1,9 @@
+.googleResearch2Container{
+    /* background-color: skyblue; */
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin:50px 30px;
+
+}

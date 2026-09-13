@@ -1,16 +1,14 @@
-import "./Buttons.css"
+// import "./Buttons.css"
 
 
-const Buttons = (Props) => {
-    return (
-        <div>
-         <button className="">
-       <div>
-        
-       </div>
-         </button>
-        </div>
-    )
-}
+// const Buttons = ({name}) => {
+//     return (
+//         <div>
+//          <button className="button">
+//             {name}
+//          </button>
+//         </div>
+//     )
+// }
 
-export default Buttons
+// export default Buttons

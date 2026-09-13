@@ -1,0 +1,93 @@
+.outreachContainer{
+    /* background-color: hotpink; */
+  
+}
+.outreachWrapper{
+/* display: flex;
+justify-content: space-between;
+align-items: center; */
+}
+.outreachText{
+text-align: center;
+}
+.outreachGrid{
+
+}
+.sustainabilityWrapper{
+   /* background-color: saddlebrown; */
+   width: 650px;
+   height: 900px;
+   border-radius: 20px;
+   border: 1px solid black;
+
+}
+
+.sustainabilityImage{
+    img{
+            width: 650px;
+    height: 480px;
+     border-radius: 20px;
+
+    }
+
+}
+
+.sustainabilityText{
+    h5{
+        font-size: 20px;
+    }
+
+        p{
+        font-size: 16px;
+    }
+}
+
+.outreachGrid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.googlewomenpixel{
+   display: grid;
+
+}
+
+.googlethreeWomen{
+   /* background-color:fuchsia; */
+   width: 345px;
+   height: 413px;
+   border-radius: 20px;
+    border: 1px solid black;
+
+   img{
+    width: 260px;
+    height: 150px;
+    border-radius: 20px;
+      margin: 30px 30px;
+   }
+
+}
+
+.googlebluePixel{
+     /* background-color:green; */
+   width: 345px;
+   height: 413px;
+   border-radius: 20px;
+   border: 1px solid black;
+ 
+   img{
+     width: 260px;
+    height: 150px;
+     border-radius: 20px;
+      margin: 30px 30px;
+   }
+
+}
+.gridarrow{
+    img{
+        width: 20px;
+        height: 20px;
+       
+    }
+}

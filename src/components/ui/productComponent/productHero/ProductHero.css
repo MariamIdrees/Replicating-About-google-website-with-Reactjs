@@ -2,20 +2,23 @@
     /* background-color: red; */
     /* height: 70vh; */
     margin: 100px 50px;
+    overflow: hidden;
 
    
 }
 
 .movingIcons{
-    width: 95vw;
+    /* width: 95vw; */
      gap: 40px;
     display: flex;
     align-items: center;
-    animation: scroll 18s linear infinite;
+    animation: scroll 20s linear infinite;
     width: max-content;
     img{
         width: 40px;
         height: 40px;
+        object-fit: contain;
+        flex-shrink: 0px;
     }
 }
 
@@ -46,9 +49,9 @@ h1{
 
 
 .fourPs{
-    background-color: green;
+    background-color: red;
     height: 50px;
-    border: 1px;
+    border: 1px solid black;
     border-radius: 20px;
     outline: 20px;
    
@@ -58,7 +61,8 @@ h1{
     justify-content: center;
     text-align: center;
     margin: 0px 50px 0px 50px;
-    width: 80%;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -71,3 +75,24 @@ h1{
         height: 450px;
     }
 }
+@media (max-width:500px) {
+   .movingIcons{
+    gap: 30px;
+    animation-duration: 15s;
+   } 
+    img{
+        width: 25px;
+        height: 25px;
+    }
+    .pixelPhones{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    img{
+        width: 100vw;
+        height: 250px;
+    }
+
+    }
+}
+    

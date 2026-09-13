@@ -8,7 +8,7 @@ const SearchWays = () =>{
              <img src="./src/assets/images/googleicon.png" alt="google icon" />
 
             <h1>Search in new ways</h1>
-            <button>Download the google app</button>
+            <button className="button6">Download the google app</button>
           </div>
 
           </div>

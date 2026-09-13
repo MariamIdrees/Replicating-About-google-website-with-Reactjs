@@ -8,7 +8,7 @@ const ChatGemini =() =>{
 
             <h1>Chat with Gemini, your personal AI <br /> assistant</h1>
            
-            <button>Try it now</button>
+            <button className="button">Try it now</button>
           </div>
 
         </div>

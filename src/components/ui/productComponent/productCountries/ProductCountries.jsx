@@ -3,7 +3,11 @@ import "./ProductCountries.css"
 const ProductCountries = ()=>{
     return(
         <div className="productCountriesContainer">
-            <h1>This is the product countries section</h1>
+          <div className="productCountriesWrapper">
+            <img src="./src/assets/productsimages/exclamation.png" alt="exclamation icon" />
+            <p>Products shown on this page are not available in all countries. Visit support.google.com for more information on specific product availability.</p>
+
+          </div>
         </div>
     )
 }
