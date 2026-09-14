@@ -4,7 +4,7 @@ import Googlecareer from "../../../../assets/companyimages/googlecareer.png"
 import Googlebike from "../../../../assets/companyimages/googlebike.png"
 import Photographer from "../../../../assets/companyimages/photographer.png"
 import Googlewoman from "../../../../assets/companyimages/googlewoman.png"
-import Forwardarrow from "../../../../assets/companyimages/Forwardarrow.png"
+import Forwardarrow from "../../../../assets/companyimages/forwardarrow.png"
 
 
 const Company4cards =() =>{
