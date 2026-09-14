@@ -1,4 +1,121 @@
+
 .investorContainer{
-    background-color: burlywood;
+background-color: white;
+
+
+}
+
+.investorText{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    
+
+  
+
+    h1{
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
    
 }
+
+.investorTextBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.investorText2{
+    background-color: #F2F5FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 937px;
+    height: 250px;
+    border-radius: 20px;
+    margin-top: 180px;
+    padding-bottom: 120px;
+
+  
+}
+
+.button8{
+    background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button8:hover{
+    background-color: #185ABC;
+
+}
+
+
+.button9{
+    background-color: #1A73E8;
+     font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding: 18px 40px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button9:hover{
+    background-color: #185ABC;
+
+}
+
+@media (max-width:500px) {
+    .button8{
+        min-width: 90%;
+       
+    }
+    .button9{
+         min-width: 90%; 
+    }
+
+    .investorTextBox{
+     display:flex;  
+   height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  
+
+
+  } 
+  .investorText{
+    display: grid;
+   height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+  
+  
+
+
+  }  
+
+
+    }
+  

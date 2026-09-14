@@ -1,5 +1,5 @@
 .biggercardContainer{
-    background-color: yellow;
+    background-color: white;
 }
 
 .biggercardTextIconContainer{
@@ -19,13 +19,13 @@
 }
 
 .biggerImageSection{
-    img{
+    /* img{
         width: 534px;
         height: 300px;
         object-fit: cover;
         cursor: pointer;
         transition: 1s ease-in-out;
-    }
+    } */
 
    
 }

@@ -1,10 +1,10 @@
 
 
 .googleResearch1Container{
-    background-color: #F3F5FB;
+    background-color: white;
     display: flex;
     justify-content: center;
-    padding: 70px 70px;
+    padding: 70px 40px;
     gap: 45px;
     animation: popUp 2s ease-in-out;
    
@@ -16,20 +16,134 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.biggerCardsWrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 80px;
+
+}
+
+.googledeepMind{
+    width: 530px;
+    height: 422px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* margin-top: 40px; */
+
+}
+
+.googledeepMindImage{
+    img{
+         width: 530px;
+         height: 300px;
+
+    }
+
+}
+
+.googledeepMindText{
+    p{
+        font-size: 20px;
+    }
 }
 
 
+.researchWoman{
+    width: 530px;
+    height: 422px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.researchWomanText{
+    p{
+        font-size: 20px;
+    }
+}
+
+
+
+.arrow{
+    img{
+        width: 40px;
+        height: 30px;
+        margin-left: 450px;
+        
+    }
+}
 
  @media (max-width: 500px) {
 
     .googleResearch1Container{
        display: grid;
-       grid-template-columns: repeat(1, 1fr);
-       padding: 50px 50px;
-       gap: 35px;
-       animation: popUp 2s ease-in-out;
-       overflow: hidden;
+     
 
 } 
+.googleResearch1Text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h1{
+        font-size: 20px;
+    }
+    p{
+           font-size: 15px;
+    line-height: 1.2222222222;
+    font-weight: 400;
+    letter-spacing: -.25px;
+}
  }
 
+ .biggerCardsWrapper{
+    display: grid;
+    /* justify-content: space-between; */
+    gap: 40px;
+    margin-top: 80px;
+
+}
+.googledeepMind{
+    width: 450px;
+    height: 422px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* margin-top: 40px; */
+
+}
+
+.googledeepMindImage{
+    img{
+         width: 450px;
+         height: 300px;
+
+    }
+
+}
+
+.arrow{
+    img{
+        width: 40px;
+        height: 30px;
+        margin-left: 400px;
+        
+    }
+}
+
+.researchWoman{
+    width: 450px;
+    height: 422px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 30px;
+    /* margin-top: 40px; */
+
+}
+
+
+
+ }

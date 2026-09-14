@@ -36,6 +36,22 @@ h1{
 }
 
 @media (max-width:500) {
+    .multipleImage{
+        img{
+          width: 100%;
+          object-fit: cover;
+        }
+    }
     
+    .multipleTextWrapper{
+  
+h1{
+    background-color: #E37400;
+font-size: 2.25rem;
+    line-height: 1.2222222222;
+    font-weight: 400;
+    letter-spacing: -.25px;
+}
+}
     
 }

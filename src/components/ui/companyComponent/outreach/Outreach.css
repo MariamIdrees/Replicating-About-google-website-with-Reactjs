@@ -3,14 +3,14 @@
   
 }
 .outreachWrapper{
-/* display: flex;
-justify-content: space-between;
-align-items: center; */
+
 }
 .outreachText{
 text-align: center;
 }
 .outreachGrid{
+ display: flex;
+
 
 }
 .sustainabilityWrapper{
@@ -18,23 +18,33 @@ text-align: center;
    width: 650px;
    height: 900px;
    border-radius: 20px;
+   /* margin: 30px 30px; */
    border: 1px solid black;
 
 }
 
+.sustainabilityWrapper:hover{
+    box-shadow: 2px 4px 8px rgba(69, 50, 245, 0.6);
+    cursor: pointer;
+}
+
+
 .sustainabilityImage{
     img{
-            width: 650px;
+            width: 550px;
     height: 480px;
      border-radius: 20px;
+       margin: 40px 40px;
 
     }
 
 }
 
 .sustainabilityText{
+    padding-left: 40px;
+ 
     h5{
-        font-size: 20px;
+        font-size: 25px;
     }
 
         p{
@@ -42,10 +52,10 @@ text-align: center;
     }
 }
 
-.outreachGrid{
+.googlewomenpixel{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .googlewomenpixel{
@@ -69,6 +79,11 @@ text-align: center;
 
 }
 
+.threeWomenText{
+    text-align: center;
+
+}
+
 .googlebluePixel{
      /* background-color:green; */
    width: 345px;
@@ -84,10 +99,181 @@ text-align: center;
    }
 
 }
+
+.googlebluePixelText{
+   
+    text-align: center; 
+  
+}
 .gridarrow{
     img{
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 25px;
+        margin-left: 400px;
        
     }
 }
+
+.gridarrow2{
+    img{
+        width: 30px;
+        height: 25px;
+        margin-left: 300px;
+       
+    }
+}
+
+.googlebluewrapper{
+    display: inline-block;
+}
+
+
+@media (max-width:500px) {
+    .sustainabilityWrapper{
+    display: grid;
+    margin-left: 30px;
+
+    }
+
+.outreachWrapper{
+    background-color: #E8F0FE;
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.sustainabilityImage{
+    img{
+        width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.outreachText{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+}
+.outreachGrid{
+    background-color: #FCE8E6;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.publicpolicyText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+
+.googlethreeWomen{
+    background-color: #E6F4EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+}
+
+.googlethreeWomenText{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 10px;
+     width: 70%;
+     text-align: center;
+     
+   }
+}
+
+.googlebluePixel{
+    background-color: #FEF7E0;
+      width: 420px;
+    height: 500px;
+    border-radius: 20px;
+     p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+
+
+    img{
+     width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.googlebluePixelText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+
+ 
+
+}
+
+.gridsecondarrow{
+    text-align: center;
+  
+      img{
+    width: 30px;
+    height: 20px;
+  
+    }
+
+}
+
+}
+

@@ -1,12 +1,75 @@
 .andriodPixelContainer{
-    background-color: navy;
-    height: 80vh;
+
+   
 }
 
+.andriodPixelWrapper{
+    /* background-color: firebrick; */
+  display: flex;
+  justify-content: center;
+    gap: 80px;
+  
+    margin: 0px 50px;
+
+}
+
+.androidWrapper{
+    display: flex;
+      justify-content: center;
+  flex-direction: column;
+    width: 440px;
+    height: 465px;
+        border: 1px solid black;
+    border-radius: 20px;
+  
+}
+.androidPhoneImage{
+  img{
+      width: 440px;
+    height: 225px;
+   
+  }
+}
 .androidPixelText{
-    background-color: salmon;
+p{
+    font-size: 16px;
+}
 
 }
 .phoneImagesText{
-    background-color: teal;
+  
+     
+}
+
+.pixelWrapper{
+    
+        display: flex;
+      justify-content: center;
+  flex-direction: column;
+    width: 440px;
+    height: 465px;
+        border: 1px solid black;
+    border-radius: 10px;
+   
+  
+
+}
+
+.pixelPhoneImage{
+img{
+        width: 440px;
+    height: 225px;
+}
+}
+
+.pixelphoneText{
+
+padding-left: 40px;
+}
+@media (max-width:500px) {
+
+  
+.andriodPixelWrapper{
+        display: grid;
+    }
 }

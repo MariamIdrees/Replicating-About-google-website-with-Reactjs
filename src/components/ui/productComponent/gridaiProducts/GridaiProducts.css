@@ -1,4 +1,323 @@
-.gridaiproductContainer{
-    background-color: olive;
-    height: 70vh;
+
+
+.gridaiproductWrapper{
+    /* background-color: sienna; */
+    display: flex;
+    gap: 30px;
+    margin: 50px 70px;
+}
+
+.googlePhotos{
+    background-color: #E8F0FE;
+    width: 550px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.googlePhotosImage{
+    img{
+        width: 460px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.googlePhotosText{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+}
+
+.gridarrow{
+    text-align: center;
+    img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.geminiWorkspace{
+    background-color: #E8F0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 550px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+}
+
+.geminiWorkspaceText{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+}
+
+.googleGeminiWorkspace{
+    display: grid;
+    gap: 30px;
+}
+
+
+.geminiMaps{
+  display: grid;
+  gap: 30px;
+  
+}
+
+.aimodeLens{
+
+}
+
+.chromeGemini{
+    background-color: #E8F0FE;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 550px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.chromeGeminiText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+.geminiMaps{
+    display: grid;
+gap: 30px;
+}
+
+.googleMaps{
+    background-color:#E8F0FE;
+      width: 550px;
+    height: 500px;
+    border-radius: 20px;
+     p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+
+
+    img{
+     width: 460px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.googleMapsText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+
+.gridsecondarrow{
+    text-align: center;
+      img{
+    width: 30px;
+    height: 20px;
+    }
+
+}
+
+@media (max-width:500px) {
+    .gridaiproductWrapper{
+    display: grid;
+    margin-left: 30px;
+
+    }
+
+.googlePhotos{
+    background-color: #E8F0FE;
+    width: 420px;
+    height: 500px;
+    border-radius: 20px;
+
+}
+
+.googlePhotosImage{
+    img{
+        width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.googlePhotosText{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+}
+.geminiWorkspace{
+    background-color:#E8F0FE;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+
+}
+
+.geminiWorkspaceText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+}
+
+.chromeGemini{
+    background-color: #E8F0FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 420px;
+    height: 222px;
+
+      img{
+    width: 30px;
+    height: 20px;
+    }
+  
+}
+
+.chromeGeminiText{
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+}
+
+.googleMaps{
+    background-color:#E8F0FE;
+      width: 420px;
+    height: 500px;
+    border-radius: 20px;
+     p{
+     font-size: 15px;
+     width: 70%;
+     text-align: center;
+     
+   }
+  
+
+
+    img{
+     width: 360px;
+        height: 270px;
+        border-radius: 20px;
+        margin: 30px 30px;
+    }
+}
+
+.googleMapsText{
+       display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   p{
+     font-size: 15px;
+     width: 65%;
+     text-align: center;
+     
+   }
+
+ 
+
+}
+
+.gridsecondarrow{
+    text-align: center;
+  
+      img{
+    width: 30px;
+    height: 20px;
+  
+    }
+
+}
+
 }

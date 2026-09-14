@@ -56,3 +56,32 @@
     background-color: #185ABC;
 
 }
+
+@media (max-width:500px) {
+    .googleGrowingWrapper{
+        display: grid;
+    }
+    
+  
+
+    .googleGrowingText{
+    /* background-color: aqua; */
+    display: grid;
+    text-align: center;
+   
+  
+    width: 100vw;
+
+    h1{
+        font-size: 30px;
+        margin-right: 180px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+    
+
+}
+
+}

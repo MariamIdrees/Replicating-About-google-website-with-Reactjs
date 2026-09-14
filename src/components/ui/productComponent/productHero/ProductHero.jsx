@@ -43,7 +43,9 @@ const ProductHero = () => {
            </div>
            <h1>Helpful products, built with you <br />in mind</h1>
            <div className="fourPs">
+            <div className="fourPstext">
             <p>Search in new ways   Chat with Gemini   Try AI tools   Explore more products</p>
+            </div>
            </div>
            <div className="pixelPhones">
             <img src="./src/assets/productsimages/pixelphones.png" alt="pixel phones" />

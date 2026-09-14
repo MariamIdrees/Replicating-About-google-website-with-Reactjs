@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding-top: 60px;
     gap: 30px;
 }
@@ -29,6 +30,13 @@
         width: 443px;
         height: 295px;
     }
+}
+
+.googleceoImageWrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
 }
 
    .button7{
@@ -57,24 +65,18 @@
     .button7{
         min-width: 90%;
     }
-  .googleceoWrapper{
-    /* background-color: aquamarine; */
+.googleceoImageWrapper{
    
-    display: flex;
-     flex-direction: row;
-    flex-wrap: wrap;
-    overflow: hidden;
-    height: auto;
- 
-
+  display: grid;
+height: auto;
 
   }  
 
   .googleceoText{
- 
+  
  p{
     font-size: 17px;
-    text-align: center;
+  
  }
 }
 .googleceoImage{
@@ -84,4 +86,8 @@
     }
 }
 
+.googleceoText{
+    text-align: center;
+    width: 90vw;
+}
 }

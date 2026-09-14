@@ -33,7 +33,7 @@ const Outreach =() =>{
              <h1>Google.org</h1>
              <p>We provide funding and tech expertise to support underserved communities and expand opportunity for everyone.</p>
          </div>
-         <div className="gridarrow">
+         <div className="gridarrow2">
             <img src="./src/assets/images/arrow.png" alt="arrow" />
          </div>
 
@@ -43,12 +43,14 @@ const Outreach =() =>{
                  <div className="googlebluePixelImage">
                    <img src="./src/assets/companyimages/googlebluepixel.png" alt="blue pixel image" />
                 </div>
+                <div className="googlebluewrapper">
                 <div className="googlebluePixelText"> 
-             <h1>Google.org</h1>
-             <p>We provide funding and tech expertise to support underserved communities and expand opportunity for everyone.</p>
+             <h1>Accessibility</h1>
+             <p>We're building more accessible products with and for people with disabilities.</p>
          </div>
-         <div className="gridarrow">
+         <div className="gridarrow2">
             <img src="./src/assets/images/arrow.png" alt="arrow" />
+         </div>
          </div>
 
 
