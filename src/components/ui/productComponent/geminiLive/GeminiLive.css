@@ -64,28 +64,32 @@ img{
      flex-direction: row;
     flex-wrap: wrap;
     height: auto;
+    margin: 0px 40px ;
+    padding-bottom: 30px;
   
    
 
   }  
 
   .geminiLiveText{
+    margin-left: 60px;
      h1{
    font-size: 40px;
  }
 
  p{
     font-size: 17px;
-    max-width: 100%;
+    /* max-width: 100%; */
  }
 }
 
 .geminiLiveImage{
+    margin-left: 80px;
   
     /* display: flex;
     flex-direction: row; */
      img{
-        width: 465px;
+        width: 350px;
         height: 260px;
        
     

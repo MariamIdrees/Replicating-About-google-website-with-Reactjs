@@ -1,12 +1,20 @@
+import { useState } from "react"
 import "./Header.css"
 import { Link } from "react-router-dom"
+import Sidebar from "../sidebar/Sidebar"
+
+
 
 const Header = ()=>{
+   const [toggle, setToggle]= useState(false)
+    const toggleSwitch = () => {
+        setToggle (!toggle)
+    }
     return(
+     
+        
         <div className="headerDiv">
-            <div className="hamburger">
-                <img src="./src/assets/images/hamburger.png" alt="hamburger" />
-            </div>
+            
            <section className="googleLogo">
              <img src ="./src/assets/images/googlelogoabout.png" alt=" Google About Logo"/>
            </section>
@@ -34,8 +42,17 @@ const Header = ()=>{
             </div>
             </Link>
 
-           </section>
-        </div>
+          
+           <section className="hamburger" onclick={toggleSwitch} img src="./src/assets/images/hamburger.png" alt="hamburger" />
+            </section >
+            <Sidebar/>
+
+           </div>
+       
+    
+       
+       
+       
     )
 }
 export default Header

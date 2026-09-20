@@ -10,7 +10,7 @@ const ThreeCards = () => {
     return(
       
         <div className="threeCardsDiv">
-         
+         <div className="threeCardsWrapper">
          <Cards
          cardImage={threecards1}
          cardText= "Explore our products and features across Search, Google Workspace, and more"
@@ -32,6 +32,7 @@ const ThreeCards = () => {
           /> 
         
         <arrow/>
+        </div>
         </div>
     )
 }

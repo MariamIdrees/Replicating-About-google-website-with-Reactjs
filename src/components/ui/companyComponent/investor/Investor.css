@@ -94,12 +94,22 @@ background-color: white;
     .button9{
          min-width: 90%; 
     }
+    .investorContainer{
+        /* display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto; */
+        margin-top: 500px;
+        
+    }
 
     .investorTextBox{
      display:flex;  
    height: auto;
     text-align: center;
     flex-wrap: wrap;
+   
   
 
 
@@ -109,8 +119,10 @@ background-color: white;
    height: auto;
     text-align: center;
     flex-wrap: wrap;
-    overflow: hidden;
-  
+    /* overflow: hidden; */
+   /* h1{
+    font-size: 30px;
+   } */
   
 
 

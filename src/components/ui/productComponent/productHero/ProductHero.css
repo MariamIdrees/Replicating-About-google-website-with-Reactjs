@@ -47,19 +47,33 @@ h1{
 
 }
 
+.fourpsWrapper{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 60vw;
+     margin-left: 200px;
+   
+}
 
-.fourPs{
+
+.fourPsText{
     background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 50px;
     border: 1px solid black;
     border-radius: 20px;
     outline: 20px;
     cursor: pointer;
-    width: 80vw;
+    width: 60vw;
+    gap: 50px;
 
    
    
-    .fourPs:hover{
+    .fourPsText:hover{
         background-color: #5F6368;
     }
 
@@ -91,6 +105,13 @@ h1{
     img{
         width: 25px;
         height: 25px;
+    }
+
+    .fourpsWrapper{
+        display: grid;
+        width: 0vw;
+      
+      
     }
     .pixelPhones{
     /* background-color: black; */

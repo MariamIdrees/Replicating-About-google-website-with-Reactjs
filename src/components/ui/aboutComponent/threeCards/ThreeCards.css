@@ -6,12 +6,15 @@
     gap: 45px;
     animation: popUp 2s ease-in-out;
    
-  
-  
    
 
-   
+}
 
+.threeCardsWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+ margin-left: 40px;
 }
 
 @keyframes popUp {
@@ -27,13 +30,13 @@
 
  @media (max-width: 500px) {
 
-    .threeCardsDiv{
+    .threeCardsWrapper{
        display: grid;
        grid-template-columns: repeat(1, 1fr);
        padding: 50px 50px;
        gap: 35px;
        animation: popUp 2s ease-in-out;
-       overflow: hidden;
+       
 
 } 
  }

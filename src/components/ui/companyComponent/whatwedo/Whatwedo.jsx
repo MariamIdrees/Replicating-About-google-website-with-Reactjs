@@ -23,7 +23,7 @@ const Whatwedo =() =>{
          <p>PUBLIC POLICY</p>
          <p>We’re committed to working with governments, companies and communities to create a safe and resilient digital future.</p>
          </div>
-          <div>
+          <div className="gridarrow">
              <img src="./src/assets/images/arrow.png" alt="arrow" /> 
           </div>
          </div>

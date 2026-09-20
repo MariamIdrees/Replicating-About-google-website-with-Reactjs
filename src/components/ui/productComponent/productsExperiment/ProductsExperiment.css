@@ -35,7 +35,7 @@ img{
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    margin: 0px 40px;
+
    
     
     img{
@@ -61,7 +61,10 @@ img{
 }
 
 .folders{
-  display: none;
+  img{
+   width: 400px;
+
+  }
 }
 
 
@@ -92,6 +95,7 @@ img{
     
     .rocketImagesWrapper{
         display: grid;
+        height: auto;
     }
     .rocketImageText{
     background-color: white;
@@ -107,7 +111,11 @@ img{
 }
 .rocketTexts{
    h1{
-    text-align: center;
+/*    
+    margin-left: 100px; */
+   }
+   p{
+    font-size: 20px;
    }
 }
 

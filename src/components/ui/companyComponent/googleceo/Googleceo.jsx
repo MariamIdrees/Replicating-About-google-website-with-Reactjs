@@ -15,7 +15,7 @@ const Googleceo =() =>{
                   <button className="button7">Read more from our CEO</button>
  </div>
             <div className="googleceoImage">
-                <img src="./src/assets/companyimages/googleceo.png" alt="" />
+                <img src="./src/assets/companyimages/googleceo.png" alt="ceo image" />
 
             </div>
 

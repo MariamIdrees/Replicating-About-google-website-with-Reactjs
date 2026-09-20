@@ -42,15 +42,20 @@ const ProductHero = () => {
 
            </div>
            <h1>Helpful products, built with you <br />in mind</h1>
-           <div className="fourPs">
-            <div className="fourPstext">
-            <p>Search in new ways   Chat with Gemini   Try AI tools   Explore more products</p>
-            </div>
-           </div>
+           <section className="fourpsWrapper">
+            <span className="fourPsText">
+            <p>Search in new ways </p>  
+            <p> Chat with Gemini  </p> 
+            <p> Try AI tools  </p> 
+            <p>Explore more products</p>
+           </span>
+           </section>
            <div className="pixelPhones">
             <img src="./src/assets/productsimages/pixelphones.png" alt="pixel phones" />
            </div>
+           <section/>
         </div>
+       
     )
 } 
 export default ProductHero

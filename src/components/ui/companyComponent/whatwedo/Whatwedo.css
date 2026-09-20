@@ -172,8 +172,12 @@ gap: 50px;
 
 @media (max-width:500px) {
     .whatwedoContainer{
+      /* background-color: saddlebrown; */
     display: grid;
+    grid-template-columns: 1fr ;
     margin-left: 30px;
+    height: auto;
+    margin-top: 500px;
 
     }
 
@@ -316,6 +320,18 @@ gap: 50px;
     }
 
 }
+
+.gridarrow{
+    text-align: center;
+  
+      img{
+    width: 30px;
+    height: 20px;
+  
+    }
+
+}
+
 
 }
 
